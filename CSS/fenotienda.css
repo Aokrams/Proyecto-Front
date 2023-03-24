@@ -1,0 +1,95 @@
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 100px;
+}
+
+.logo img{
+    height: 180px;
+    float: left;
+    margin-top: -50px;
+    
+}
+
+.casa img{
+    height: 60px;
+    float: left;
+    margin-left: 10px;
+}
+
+.puntos img{
+    height: 60px;
+    float: left;
+}
+
+body{
+    background: linear-gradient(blueviolet,aqua);
+    height: 100vh;
+}
+
+.buscar{
+    position: relative;
+}
+
+.buscar input{
+    height: 30px;
+    width: 0px;
+    padding: 0 15px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 25px;
+    transition: all 0.6s ease;
+    text-align: center;
+}
+
+.buscar img{
+    top: 0;
+    right: 0;
+}
+.buscar img{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    top: -30%;
+    right: -10%;
+    background: purple;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buscar:hover input{
+    width: 200px;
+}
+
+.buscar input:focus{
+    width: 200px;
+}
+
+.perfil img{
+    height: 60px;
+    float: right;
+}
+
+.bolso img{
+    height: 60px;
+    float: right;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+main h2{
+    font-family: cursive;
+}
+
+main h3{
+    text-align: center;
+}
